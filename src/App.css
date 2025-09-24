@@ -22,9 +22,10 @@
 .contact{
     background-color: #141313;
     box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
-    margin: 10px 150px;
+    margin: 15px 90px;
     padding: 110px 344px;
-    
+    height:200px;
+    text-align: left;
 }
 
 body, html {
@@ -71,3 +72,36 @@ nav a {
 nav a:hover {
   color: greenyellow; 
 }
+
+form input{
+  height:20px;
+  width:250px;
+  top:0%;
+  text-align: left;
+  margin-inline: 0px;
+}
+
+form{
+  width:520px;
+  margin: 0 auto;
+  top: -90px;
+  position: relative;
+  
+}
+
+form textarea{
+  height:120px;
+  width:510px;
+}
+
+.contactform{
+      background-color: #141313;
+    box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
+    margin: 6px 90px;
+    padding: 90px 300px;
+    height:110px;
+    margin-top: 0;
+
+    text-align: center;
+}
+
