@@ -1,6 +1,5 @@
 .background {
-  background-color: #141313;
-  color: white;
+  background-color: black;
   width: 90%;          
   max-width: 1200px;   
   text-align: center;
@@ -20,15 +19,15 @@
 }
 
 .information{
-    background-color: #141313;
+    background-color: black;
     box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
-    margin: 15px 90px;
+    margin: 20px 155px;
     padding: 110px 344px;
     height:200px;
-    text-align: left;
 }
 
 body, html {
+  background-color: black;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -95,13 +94,54 @@ form textarea{
 }
 
 .contactform{
-      background-color: #141313;
+    background-color: black;
     box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
-    margin: 6px 90px;
-    padding: 90px 300px;
+    background-image: url('background.jpg'); 
     height:110px;
     margin-top: 0;
-
     text-align: center;
+    margin: 20px 155px;
+    padding: 90px 0px;
+    height:200px;
+}
+
+.informationabout{
+    background-color: black;
+    box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
+    margin: 0px 80px;
+    padding: 200px 20px;
+    height:-400px;
+    text-align: center;
+}
+
+.about{
+  background-color: black;
+  text-align: center;
+  margin: 0px 0px;
+  height: 260px;
+
+}
+
+.about2{
+  background-color: black;
+  text-align: center;
+  height: 0px;
+}
+
+.portfoliophotos{
+  margin-left: -100px;
+}
+
+.backgroundportfolio{
+  background-color: black;
+  width: 90%;         
+  max-width: 1200px;   
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 1590px; 
+  padding: 20px;         
+  opacity:100%;
+  border-radius: 10px;   
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
 }
 
