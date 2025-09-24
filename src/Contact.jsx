@@ -1,16 +1,21 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Contact() {
+    const redirect =useNavigate();
+
+    const redirectuser = (e) => {
+        redirect("/");
+    }
     return(
         <div>
-            <div className="contact">
+            <div className="information">
                 <h1>Contact me here:</h1>
                 <h3>Email: mkendra917@gmail.com</h3>
                 <h3>Phone Number: (226)-503-2974</h3>
                 <h3>Address: 322 Finkle Street Woodstock Ontario</h3>
             </div>
             <div className="contactform">
-               
+
                 <form>
                      <h3>Contact me in the form below:</h3>
                     <input type="text" name="FirstName" placeholder="First Name" required></input>
@@ -19,7 +24,7 @@ function Contact() {
                 <form>
                     <textarea name="message" rows="4" cols="43" placeholder="Message"></textarea>
                 </form>
-                <form >
+                <form onSubmit={redirectuser} >
                     <input type="submit"></input>
                 </form>
             </div>

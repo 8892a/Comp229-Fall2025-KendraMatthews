@@ -15,7 +15,7 @@ function App() {
     <Router>
       <nav>    
         <img src={logo} className="logo" />  
-        <Link to="/Homepage">Homepage </Link>
+        <Link to="/">Homepage </Link>
         <Link to="/about">About Me</Link>
         <Link to="/Portfolio">Portfolio</Link>
         <Link to="/Services">Services</Link>
@@ -24,7 +24,7 @@ function App() {
 
 
       <Routes>
-        <Route path="/Homepage" element={<Homepage/>} />
+        <Route path="/" element={<Homepage/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/Services" element={<Services/>}/>
