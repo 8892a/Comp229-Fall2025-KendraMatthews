@@ -1,0 +1,73 @@
+.background {
+  background-color: #141313;
+  color: white;
+  width: 90%;          
+  max-width: 1200px;   
+  text-align: center;
+  margin: 10px 120px;   
+  padding: 40px;         
+  opacity:100%;
+  border-radius: 10px;   
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
+  
+}
+
+.logo{
+  height: 90px;
+  margin-left: 1%;
+  margin-top: 0px;
+
+}
+
+.contact{
+    background-color: #141313;
+    box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
+    margin: 10px 150px;
+    padding: 110px 344px;
+    
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('background.jpg'); 
+  opacity: 90%;
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mission-statement {
+  font-size: 24px;   
+  color: greenyellow;     
+  font-style: italic;
+  margin-top: 20px;
+}
+
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;  
+  gap: 50px;             
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;          
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: greenyellow; 
+}
