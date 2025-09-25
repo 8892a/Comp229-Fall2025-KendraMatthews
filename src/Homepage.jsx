@@ -5,7 +5,7 @@ function Homepage() {
 
 
       <h1>Welcome to My Portfolio</h1>
-      <p>My name is Kendra Matthews, I'm a second year Software Engineering student at Centennial College</p>
+      <h3>My name is Kendra Matthews, I'm a second year Software Engineering student at Centennial College</h3>
       <p className="mission-statement">Mission Statement: I strive to create perfect harmony between creativity and technology.</p>
       <button onClick={() => window.location.href="/About"}>Learn More About Me</button>
     </div>

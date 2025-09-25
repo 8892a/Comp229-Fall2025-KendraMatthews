@@ -2,7 +2,6 @@ import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "./Homepage.jsx";
-import AboutMe from "./About.jsx";
 import Portfolio from "./Portfolio.jsx";
 import Services from "./Services.jsx";
 import Contact from "./Contact.jsx";

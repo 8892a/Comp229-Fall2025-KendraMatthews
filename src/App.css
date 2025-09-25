@@ -118,14 +118,18 @@ form textarea{
   background-color: black;
   text-align: center;
   margin: 0px 0px;
-  height: 260px;
+  height: 550px;
 
+}
+
+.about2 button{
+  margin-top:100px;
 }
 
 .about2{
   background-color: black;
   text-align: center;
-  height: 0px;
+  height: 000px;
 }
 
 .portfoliophotos{
@@ -138,7 +142,20 @@ form textarea{
   max-width: 1200px;   
   text-align: center;
   margin-left: 100px;
-  margin-top: 1590px; 
+  margin-top: 1520px; 
+  padding: 20px;         
+  opacity:100%;
+  border-radius: 10px;   
+  box-shadow: 0 6px 15px rgba(200, 200, 200, 0.7); 
+}
+
+.backgroundservices{
+    background-color: black;
+  width: 90%;         
+  max-width: 1200px;   
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 10px; 
   padding: 20px;         
   opacity:100%;
   border-radius: 10px;   
