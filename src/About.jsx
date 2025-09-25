@@ -1,4 +1,9 @@
+// Portfolio-KendraMatthews Kendra Matthews Comp229 Assignment 1 2025-09-23 301499660
+
+//About page
 import React from "react";
+
+//Displays information about me with buttons leading the user to my portfolio, and resume.
 
 function About() {
   return  (

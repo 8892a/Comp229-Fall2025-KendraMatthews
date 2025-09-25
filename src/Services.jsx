@@ -1,3 +1,9 @@
+// Portfolio-KendraMatthews Kendra Matthews Comp229 Assignment 1 2025-09-23 301499660
+
+//Services
+
+//Lists services with images.
+
 import React from "react";
 
 function Services() {

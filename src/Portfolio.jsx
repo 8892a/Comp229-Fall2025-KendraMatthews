@@ -1,4 +1,9 @@
+// Portfolio-KendraMatthews Kendra Matthews Comp229 Assignment 1 2025-09-23
+
+//Portfolio
 import React from "react";
+
+//Displays information on personal projects (Aquarium website elements)
 
 function Portfolio() {
 

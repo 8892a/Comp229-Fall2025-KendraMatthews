@@ -1,5 +1,11 @@
+// Portfolio-KendraMatthews Kendra Matthews Comp229 Assignment 1 2025-09-23 301499660
+
+//Contact Page
 import React from "react";
 import { useNavigate } from "react-router-dom";
+
+//Redirects user to homepage on submit of form, with contact information.
+
 function Contact() {
     const redirect =useNavigate();
 

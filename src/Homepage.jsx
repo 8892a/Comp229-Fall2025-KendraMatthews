@@ -1,3 +1,9 @@
+// Portfolio-KendraMatthews Kendra Matthews Comp229 Assignment 1 2025-09-23 301499660
+
+
+//Homepage
+
+//Displays about me information.
 function Homepage() {
   return (
     <div className="background">
